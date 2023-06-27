@@ -3,7 +3,7 @@
 ## Introduction
 In the paper ["Video Object Segmentation in Panoptic Wild Scenes"](https://arxiv.org/abs/2305.04470), we introduce semi-supervised video object segmentation (VOS) to panoptic wild scenes and present a large-scale benchmark VIPOSeg as well as a baseline method Panoptic AOT.
 - Training and validation sets are released in this repository.
-- Code for the baseline method Panoptic AOT (PAOT) is released in the paot branch of [aot-benchmark](https://github.com/yoxu515/aot-benchmark).
+- Code for the baseline method Panoptic AOT (PAOT) is released in the paot branch of [aot-benchmark](https://github.com/yoxu515/aot-benchmark/tree/paot).
 
 ### VOS in Panoptic Scenes
 <img src="source/panoVOS.png" width="90%"/>
@@ -16,7 +16,7 @@ Our new benchmark (VIPOSeg) contains exhaustive object annotations and covers va
 ### Dataset Statistics
 <img src="source/obj_num.png" width="35%"/><img src="source/class.png" width="55%"/>
 
-Considering the challenges in panoptic VOS, we propose a strong baseline method named panoptic object association with transformers (PAOT), which uses panoptic identification to associate objects with a pyramid architecture on multiple scales. The code is released in the paot branch of [aot-benchmark](https://github.com/yoxu515/aot-benchmark).
+Considering the challenges in panoptic VOS, we propose a strong baseline method named panoptic object association with transformers (PAOT), which uses panoptic identification to associate objects with a pyramid architecture on multiple scales. The code is released in the paot branch of [aot-benchmark](https://github.com/yoxu515/aot-benchmark/tree/paot).
 
 ## VIPOSeg Dataset
 
